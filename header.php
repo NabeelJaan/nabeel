@@ -9,7 +9,7 @@
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class( 'bg-darkBlue border-10 border-darkGrey' ); ?>>
+<body <?php body_class( 'bg-white' ); ?>>
 
 <?php do_action( 'tailpress_site_before' ); ?>
 
@@ -17,7 +17,7 @@
 
 	<?php do_action( 'tailpress_header' ); ?>
 
-	<header class="bg-Blue1 rounded-lg">
+	<header class="bg-Blue1 z-30 relative">
 
 		<div class="max-w-1170 mx-auto">
 			<div class="lg:flex lg:justify-between lg:items-center py-6">

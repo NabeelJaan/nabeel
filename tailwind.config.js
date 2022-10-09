@@ -21,8 +21,10 @@ module.exports = {
             colors: tailpress.colorMapper(tailpress.theme('settings.color.palette', theme)),
 
             fontSize: {
+                '90' : '90px',
                 '64' : '64px',
                 '58' : '58px',
+                '32' : '32px',
                 '11' : '11px',
 
             },
@@ -33,14 +35,14 @@ module.exports = {
 
             backgroundColor: {
                 'Blue1'     : '#00283A',
-                'darkBlue'  : '#02162B',
+                'Blue'      : '#48C5E8',
                 'darkGrey'  : '#00151F',
-                'green'     : '#70BA65'
+                'green'     : '#59c378'
             },
 
             textColor: {
-                'Blue1'     : '#00283A',
-                'darkBlue'  : '#02162B',
+                'Yellow'    : '#FFE600',
+                'green'     : '#59c378',
                 'darkGrey'  : '#00151F',
                 'grey'      : '#919ca1', 
                 'white2'    : '#fcfcfe' 
@@ -56,7 +58,22 @@ module.exports = {
                 '1170' : '1170px'
             },
             width: {
-                '182' : '182px'
+                '500' : '500px',
+                '110' : '110px',
+                '70' : '70px',
+                '50' : '50px'
+            },
+            height: {
+                '500' : '500px',
+                '110' : '110px',
+                '70' : '70px',
+                '50' : '50px'
+            },
+            padding: {
+                '130' : '130px'
+            },
+            margin: {
+                '88': '88px'
             }
         },
         screens: {

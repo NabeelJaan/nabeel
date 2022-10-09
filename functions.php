@@ -35,6 +35,7 @@ function tailpress_setup() {
 
 add_action( 'after_setup_theme', 'tailpress_setup' );
 
+
 /**
  * Enqueue theme assets.
  */
