@@ -5,6 +5,8 @@
 	<meta name="viewport" content="width=device-width">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 	<?php wp_head(); ?>
 </head>
@@ -17,7 +19,7 @@
 
 	<?php do_action( 'tailpress_header' ); ?>
 
-	<header class="bg-Blue1 z-30 relative">
+	<header class="bg-[transparent] z-30 relative">
 
 		<div class="max-w-1170 mx-auto">
 			<div class="lg:flex lg:justify-between lg:items-center py-6">
@@ -49,14 +51,14 @@
 						'container_class' => 'hidden bg-gray-100 mt-4 p-4 lg:mt-0 lg:p-0 lg:bg-transparent lg:block',
 						'menu_class'      => 'lg:flex lg:-mx-4',
 						'theme_location'  => 'primary',
-						'li_class'        => 'text-white uppercase text-sm font-bold lg:mx-4',
+						'li_class'        => 'text-white font-inter capitalize text-base font-bold lg:mx-4',
 						'fallback_cb'     => false,
 					)
 				);
 				?>
 
 				<div>
-					<a class="text-white font-semibold uppercase bg-green rounded-full inline-flex items-center justify-center h-10 w-182 tracking-wide" href="#">download cv</a>
+					<a class="text-white font-inter font-medium tracking-wider uppercase bg-green rounded-full inline-flex items-center justify-center h-10 w-[182px]" href="#">download cv</a>
 				</div>
 			</div>
 		</div>

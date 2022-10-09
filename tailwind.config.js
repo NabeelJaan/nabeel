@@ -28,7 +28,10 @@ module.exports = {
                 '11' : '11px',
 
             },
-
+            fontFamily: {
+                'inter': ['Inter', 'sans-serif'],
+            },
+            
             borderWidth: {
                 '10' : '10px'
             },
