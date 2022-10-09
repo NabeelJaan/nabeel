@@ -21,7 +21,10 @@ module.exports = {
             colors: tailpress.colorMapper(tailpress.theme('settings.color.palette', theme)),
 
             fontSize: {
-                '58px' : '58px'
+                '64' : '64px',
+                '58' : '58px',
+                '11' : '11px',
+
             },
 
             borderWidth: {
@@ -47,6 +50,13 @@ module.exports = {
                 'Blue1'     : '#00283A',
                 'darkBlue'  : '#02162B',
                 'darkGrey'  : '#00151F'
+            },
+
+            maxWidth: {
+                '1170' : '1170px'
+            },
+            width: {
+                '182' : '182px'
             }
         },
         screens: {

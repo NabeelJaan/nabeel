@@ -19,7 +19,7 @@
 
 	<header class="bg-Blue1 rounded-lg">
 
-		<div class="mx-auto container">
+		<div class="max-w-1170 mx-auto">
 			<div class="lg:flex lg:justify-between lg:items-center py-6">
 				<div class="flex justify-between items-center">
 					<div>
@@ -38,17 +38,7 @@
 					</div>
 
 					<div class="lg:hidden">
-						<a href="#" aria-label="Toggle navigation" id="primary-menu-toggle">
-							<svg viewBox="0 0 20 20" class="inline-block w-6 h-6" version="1.1"
-								 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-								<g stroke="none" stroke-width="1" fill="currentColor" fill-rule="evenodd">
-									<g id="icon-shape">
-										<path d="M0,3 L20,3 L20,5 L0,5 L0,3 Z M0,9 L20,9 L20,11 L0,11 L0,9 Z M0,15 L20,15 L20,17 L0,17 L0,15 Z"
-											  id="Combined-Shape"></path>
-									</g>
-								</g>
-							</svg>
-						</a>
+
 					</div>
 				</div>
 
@@ -59,11 +49,15 @@
 						'container_class' => 'hidden bg-gray-100 mt-4 p-4 lg:mt-0 lg:p-0 lg:bg-transparent lg:block',
 						'menu_class'      => 'lg:flex lg:-mx-4',
 						'theme_location'  => 'primary',
-						'li_class'        => 'text-white uppercase lg:mx-4',
+						'li_class'        => 'text-white uppercase text-sm font-bold lg:mx-4',
 						'fallback_cb'     => false,
 					)
 				);
 				?>
+
+				<div>
+					<a class="text-white font-semibold uppercase bg-green rounded-full inline-flex items-center justify-center h-10 w-182 tracking-wide" href="#">download cv</a>
+				</div>
 			</div>
 		</div>
 	</header>
