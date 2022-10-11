@@ -9,3 +9,23 @@ License: MIT
 License URI: 
 Text Domain: Portfolio
 */
+
+.f-about::after{
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 300px;
+    top: 0;
+    right: -58px;
+    background-color: hsla(0, 0%, 100%, .05);
+}
+.f-nav ul li a::before,
+.f-services ul li a::before {
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 1px;
+    top: 10px;
+    left: 0;
+    background-color: #ffffff;
+}

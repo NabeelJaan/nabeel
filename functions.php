@@ -47,6 +47,8 @@ function tailpress_enqueue_scripts() {
 	wp_enqueue_style('Inter', '//fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap', 'all');
 
 	wp_enqueue_script( 'tailpress', tailpress_asset( 'js/app.js' ), array(), $theme->get( 'Version' ) );
+
+	wp_enqueue_script('fontAwesome', '//kit.fontawesome.com/24aad247cc.js', array(), false, false, false );
 }
 
 add_action( 'wp_enqueue_scripts', 'tailpress_enqueue_scripts' );

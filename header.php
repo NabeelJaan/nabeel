@@ -28,7 +28,7 @@
 						<?php if ( has_custom_logo() ) { ?>
                             <?php the_custom_logo(); ?>
 						<?php } else { ?>
-							<a href="<?php echo get_bloginfo( 'url' ); ?>" class="text-white font-extrabold text-lg uppercase">
+							<a href="<?php echo get_bloginfo( 'url' ); ?>" class="text-white font-bold text-3xl font-inter uppercase">
 								<?php echo get_bloginfo( 'name' ); ?>
 							</a>
 
