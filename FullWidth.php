@@ -172,8 +172,8 @@
 
 <!-- Lets Talk -->
 
-<section class="py-130 bg-lightblack">
-    <div class="max-w-[968px] mx-auto">
+<section class="relative py-130 bg-lightblack overflow-hidden">
+    <div class="max-w-[1030px] mx-auto">
         <div class="contact-head text-center relative z-10">
             <h2 class="text-white text-[48px] font-inter capitalize font-bold leading-[58px]">Lets talk</h2>
             <p class="text-white mt-[20px] mb-16 text-base font-inter leading-[29px] capitalize max-w-[550px] mx-auto">
@@ -183,12 +183,15 @@
 
         <div class="contact-inner relative z-10 flex justify-between">
 
-            <div class="form-wrapper px-[65px] pb-30 pt-60 border rounded-lg bg-lightGrey">
-                <h3 class="text-[28px] leading-[34px] font-inter font-semibold text-white">Get In Touch</h3>
+            <div class="form-wrapper px-[65px] pb-30 pt-60 border border-lightGrey rounded-lg bg-[#222121] mr-[30px]">
+                <h3 class="text-[28px] leading-[34px] font-inter font-semibold text-white text-center">Get In Touch</h3>
+                <div class="c-form">
+                    <?php echo do_shortcode( '[wpforms id="56" title="false"]' ); ?>
+                </div>
             </div>
 
             <div class="address-wrap">
-                <div class="office-add rounded-lg py-33 px-10 bg-[#222121]">
+                <div class="office-add border border-lightGrey rounded-lg py-33 px-10 bg-[#222121]">
 
                     <h5 class="text-[28px] leading-[34px] font-inter font-semibold text-white mb-15">25 North Street,Dubai</h5>
 
@@ -203,7 +206,7 @@
 
                 </div>
 
-                <div class="office-mail rounded-lg py-33 px-10 bg-[#222121] my-[30px] shadow-lg">
+                <div class="office-mail border border-lightGrey rounded-lg py-33 px-10 bg-[#222121] my-[30px]">
                     <a href="#" class="text-[28px] leading-[34px] font-inter font-semibold text-white block mb-15">info@nabeel.com</a>
                     <div class="flex items-center">
                         <div class="form-icon w-90 h-90 inline-flex items-center justify-center bg-lightGrey rounded-full mr-5">
@@ -215,7 +218,7 @@
                     </div>
                 </div>
 
-                <div class="office-no rounded-lg py-33 px-10 bg-[#222121]">
+                <div class="office-no border border-lightGrey rounded-lg py-33 px-10 bg-[#222121]">
                     <a href="#" class="text-[28px] leading-[34px] font-inter font-semibold text-white block mb-15">+92 302-480-2033</a>
                     <div class="flex items-center">
                         <div class="form-icon w-90 h-90 inline-flex items-center justify-center bg-lightGrey rounded-full mr-5">
@@ -231,6 +234,9 @@
         </div>
 
     </div>
+    <div class="f-shape relative -z-1">
+		<img class="absolute -bottom-[220px] -left-[400px]" src="wp-content/uploads/2022/10/svgexport-14.svg" alt="">
+	</div>
 </section>
 
 
@@ -238,13 +244,28 @@
 
 <section class="pt-130 pb-[450px] bg-lightblack">
 
-    <div class="max-w-[968px] mx-auto">
+    <div class="max-w-[1030px] mx-auto">
 
         <div class="contact-head text-center relative z-10">
             <h2 class="text-white text-[48px] font-inter capitalize font-bold leading-[58px]">Latest News</h2>
             <p class="text-white mt-[20px] mb-[40px] text-base font-inter leading-[29px] capitalize max-w-[550px] mx-auto">
                 Full stack WordPress Developer having half decade of industrial experience.
                 I love to develope website with Next Js and Tailwind CSS</p>
+        </div>
+
+        <div class="owl-carousel owl-theme">
+            <div class="item"><h4>1</h4></div>
+            <div class="item"><h4>2</h4></div>
+            <div class="item"><h4>3</h4></div>
+            <div class="item"><h4>4</h4></div>
+            <div class="item"><h4>5</h4></div>
+            <div class="item"><h4>6</h4></div>
+            <div class="item"><h4>7</h4></div>
+            <div class="item"><h4>8</h4></div>
+            <div class="item"><h4>9</h4></div>
+            <div class="item"><h4>10</h4></div>
+            <div class="item"><h4>11</h4></div>
+            <div class="item"><h4>12</h4></div>
         </div>
 
     </div>

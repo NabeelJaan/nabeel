@@ -21,8 +21,19 @@
 				<div class="w-282">
 					<a href="#" class="text-white font-bold text-3xl font-inter uppercase mb-7 block">nabeel</a>
 					<p class="text-base font-inter text-white leading-[30px]">Welcome and open yourself to your truest love this year with us! With the Release Process</p>
-					<div class="f-social">
-
+					<div class="f-social mt-8">
+						<span class="text-white text-base transition border rounded-full h-40px w-40px inline-flex items-center justify-center mr-4 cursor-pointer hover:bg-[#1298F6] hover:border-[#1298F6]">
+							<i class="fa-brands fa-facebook-f"></i>
+						</span>
+						<span class="text-white text-base transition border rounded-full h-40px w-40px inline-flex items-center justify-center mr-4 cursor-pointer hover:bg-[#1D9BF0] hover:border-[#1D9BF0]">
+							<i class="fa-brands fa-twitter"></i>
+						</span>
+						<span class="text-white text-base transition border rounded-full h-40px w-40px inline-flex items-center justify-center mr-4 cursor-pointer hover:bg-[#0A66C2] hover:border-[#0A66C2]">
+							<i class="fa-brands fa-linkedin-in"></i>
+						</span>
+						<span class="text-white text-base transition border rounded-full h-40px w-40px inline-flex items-center justify-center cursor-pointer hover:bg-[#8a3ab9] hover:border-[#8a3ab9]">
+							<i class="fa-brands fa-instagram"></i>
+						</span>
 					</div>
 				</div>
 			</div>
@@ -51,7 +62,9 @@
 				<h4 class="text-2xl font-inter font-semibold text-white leading-[29px] mb-11">News Letter</h4>
 				<p class="text-base font-inter text-white leading-[30px]">Must explain to you how all this mistaken idea pleasure born and give you a complete account.</p>
 				<div class="nl-form">
-					News letter goes here
+
+					<?php echo do_shortcode( '[wpforms id="52" title="false"]' ); ?>
+		
 				</div>
 			</div>
 		</div>
@@ -68,6 +81,25 @@
 		<img class="absolute -bottom-[220px] right-0 w-full" src="wp-content/uploads/2022/10/svgexport-16.svg" alt="">
 	</div>
 </footer>
+
+<script>
+	jQuery('.owl-carousel').owlCarousel({
+		loop:true,
+		margin:10,
+		nav:true,
+		responsive:{
+			0:{
+				items:1
+			},
+			600:{
+				items:3
+			},
+			1000:{
+				items:5
+			}
+		}
+	});
+</script>
 
 <?php wp_footer(); ?>
 

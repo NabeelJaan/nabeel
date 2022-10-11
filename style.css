@@ -10,6 +10,10 @@ License URI:
 Text Domain: Portfolio
 */
 
+:root {
+    --Green: #59C378; 
+}
+
 .f-about::after{
     content: '';
     position: absolute;
@@ -28,4 +32,60 @@ Text Domain: Portfolio
     top: 10px;
     left: 0;
     background-color: #ffffff;
+}
+
+/* Contact form */
+
+.c-form div.wpforms-container-full .wpforms-form input[type=text], 
+.c-form div.wpforms-container-full .wpforms-form input[type=email],
+.c-form div.wpforms-container-full .wpforms-form textarea {
+    background-color: transparent !important;
+    border: none !important;
+    border-bottom: 1px solid #464646 !important;
+    font-family: 'Inter', sans-serif;
+    height: 50px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+::placeholder {
+    color: #ffffff !important;
+}
+.c-form div.wpforms-container-full .wpforms-form button[type=submit] {
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    width: 195px !important;
+    height: 54px !important;
+    border: none !important;
+    border-radius: 50px !important;
+    background-color: var(--Green);
+}
+
+/* Footer news letter */
+ 
+.nl-form #wpforms-form-52 {
+    display: flex !important;
+    align-items: center;
+}
+.nl-form div.wpforms-container-full .wpforms-form input[type=email] {
+    background-color: transparent !important;
+    font-family: 'Inter', sans-serif;
+    height: 50px;
+    color: #ffffff;
+    border-right: 0 !important;
+    border-radius: 4px 0 0 4px;
+    background-color: #232925 !important;
+    opacity: 1;
+    position: relative;
+    z-index: 99;
+}
+.nl-form div.wpforms-container-full .wpforms-form button[type=submit] {
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    border: none !important;
+    background-color: var(--Green);
+    height: 50px;
+    border-radius: 0 4px 4px 0;
+}
+.nl-form .wpforms-submit-container {
+    padding-top: 0 !important;
 }

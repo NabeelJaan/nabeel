@@ -56,7 +56,9 @@ module.exports = {
             borderColor: {
                 'Blue1'     : '#00283A',
                 'darkBlue'  : '#02162B',
-                'darkGrey'  : '#00151F'
+                'darkGrey'  : '#00151F',
+                'lightGrey'  : '#464646'
+
             },
 
             maxWidth: {
@@ -72,7 +74,9 @@ module.exports = {
                 '110' : '110px',
                 '90' : '90px',
                 '70' : '70px',
-                '50' : '50px'
+                '50' : '50px',
+                '40px' : '40px',
+                '30px' : '30px'
             },
             height: {
                 '500' : '500px',
@@ -80,7 +84,9 @@ module.exports = {
                 '90' : '90px',
                 '70' : '70px',
                 '54' : '54px',
-                '50' : '50px'
+                '50' : '50px',
+                '40px' : '40px',
+                '30px' : '30px'
             },
             padding: {
                 '130' : '130px',
