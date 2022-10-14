@@ -140,13 +140,32 @@
 
 <section class="py-130 bg-lightblack">
 
-    <div class="max-w-[968px] mx-auto">
+    <div class="max-w-1170 mx-auto">
 
         <div class="contact-head text-center relative z-10">
             <h2 class="text-white text-[48px] font-inter capitalize font-bold leading-[58px]">My Work experience</h2>
             <p class="text-white mt-[20px] mb-[40px] text-base font-inter leading-[29px] capitalize max-w-[550px] mx-auto">
                 Full stack WordPress Developer having half decade of industrial experience.
                 I love to develope website with Next Js and Tailwind CSS</p>
+        </div>
+
+        <div class="bg-white px-[70px] py-5 rounded-lg md:flex md:items-center md:justify-between">
+            <div class="">
+                <span class="text-black text-3xl font-inter font-bold">2019 - 2020</span>
+            </div>
+
+            <div class="co-logo">
+                <img src="" alt="">
+            </div>
+
+            <div class="role">
+                <h3 class="text-black text-2xl font-inter font-bold">WordPress Developer</h3>
+                <p class="text-green text-base font-inter font-medium">Daniyal Consulting Inc.</p>
+            </div>
+
+            <div class="years">
+                <p class="text-black text-lg font-inter font-medium">1 years 2 months</p>
+            </div>
         </div>
 
     </div>
