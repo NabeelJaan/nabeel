@@ -216,6 +216,10 @@
   margin-top: 3px
 }
 
+.mt-5 {
+  margin-top: 1.25rem
+}
+
 .mb-16 {
   margin-bottom: 4rem
 }
@@ -316,6 +320,14 @@
   height: 2.5rem
 }
 
+.h-\[100px\] {
+  height: 100px
+}
+
+.h-\[80x\] {
+  height: 80x
+}
+
 .min-h-screen {
   min-height: 100vh
 }
@@ -378,6 +390,18 @@
 
 .w-\[182px\] {
   width: 182px
+}
+
+.w-\[100\] {
+  width: 100
+}
+
+.w-\[100px\] {
+  width: 100px
+}
+
+.w-\[200px\] {
+  width: 200px
 }
 
 .max-w-sm {
@@ -579,6 +603,11 @@
 .bg-gray-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity))
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity))
 }
 
 .bg-gradient-to-r {

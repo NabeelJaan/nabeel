@@ -154,17 +154,36 @@
                 <span class="text-black text-3xl font-inter font-bold">2019 - 2020</span>
             </div>
 
-            <div class="co-logo">
-                <img src="" alt="">
+            <div class="co-logo bg-black">
+                <img class="w-[100px]" src="wp-content/uploads/2022/10/dc-e1665727931309.png" alt="">
             </div>
 
             <div class="role">
                 <h3 class="text-black text-2xl font-inter font-bold">WordPress Developer</h3>
-                <p class="text-green text-base font-inter font-medium">Daniyal Consulting Inc.</p>
+                <p class="text-green text-base font-inter font-medium">Daniyal Consulting Inc. <span class="text-sm text-black">Remote</span></p>
             </div>
 
             <div class="years">
                 <p class="text-black text-lg font-inter font-medium">1 years 2 months</p>
+            </div>
+        </div>
+
+        <div class="bg-white px-[70px] py-5 rounded-lg mt-5 md:flex md:items-center md:justify-between">
+            <div class="">
+                <span class="text-black text-3xl font-inter font-bold">2020 - Present</span>
+            </div>
+
+            <div class="co-logo">
+                <img class="w-[200px]" src="wp-content/uploads/2022/10/download.png" alt="">
+            </div>
+
+            <div class="role">
+                <h3 class="text-black text-2xl font-inter font-bold">WordPress Developer</h3>
+                <p class="text-green text-base font-inter font-medium">Designsvalley</p>
+            </div>
+
+            <div class="years">
+                <p class="text-black text-lg font-inter font-medium">2 years+</p>
             </div>
         </div>
 
