@@ -123,13 +123,83 @@
 
 <section class="py-130 bg-lightblack">
 
-    <div class="max-w-[968px] mx-auto">
+    <div class="max-w-1170 mx-auto">
 
         <div class="contact-head text-center relative z-10">
             <h2 class="text-white text-[48px] font-inter capitalize font-bold leading-[58px]">Popular Services</h2>
             <p class="text-white mt-[20px] mb-[40px] text-base font-inter leading-[29px] capitalize max-w-[550px] mx-auto">
                 Full stack WordPress Developer having half decade of industrial experience.
                 I love to develope website with Next Js and Tailwind CSS</p>
+        </div>
+
+        <div class="services-box grid md:gap-5 md:grid-cols-3 md:grid-flow-row">
+            
+            <div class="s-box text-center border rounded-lg py-12 px-10">
+                <div class="s-icon inline-flex items-center justify-center transition-all w-[120px] mx-auto h-[120px] bg-white rounded-full hover:bg-green hover:text-white">
+                    <span class="text-Yellow"><i class="fa-regular fa-laptop-code"></i></span>
+                </div>
+                <div class="s-content">
+                    <h3 class="text-xl text-white font-inter font-bold mt-[30px] mb-[10px]">Web Development</h3>
+                    <p class="text-base text-white font-inter">Explain to you how all this mistaken idea of denouncing pleasure born
+                        and give you complete account the system.</p>
+                </div>
+            </div>
+
+            <div class="s-box text-center border rounded-lg py-12 px-10">
+                <div class="s-icon inline-flex items-center justify-center transition-all w-[120px] mx-auto h-[120px] bg-white rounded-full hover:bg-green hover:text-white">
+                    <span class="text-Yellow"><i class="fa-regular fa-laptop-code"></i></span>
+                </div>
+                <div class="s-content">
+                    <h3 class="text-xl text-white font-inter font-bold mt-[30px] mb-[10px]">Themes Development</h3>
+                    <p class="text-base text-white font-inter">Explain to you how all this mistaken idea of denouncing pleasure born
+                        and give you complete account the system.</p>
+                </div>
+            </div>
+
+            <div class="s-box text-center border rounded-lg py-12 px-10">
+                <div class="s-icon inline-flex items-center justify-center transition-all w-[120px] mx-auto h-[120px] bg-white rounded-full hover:bg-green hover:text-white">
+                    <span class="text-Yellow"><i class="fa-regular fa-laptop-code"></i></span>
+                </div>
+                <div class="s-content">
+                    <h3 class="text-xl text-white font-inter font-bold mt-[30px] mb-[10px]">WordPress Development</h3>
+                    <p class="text-base text-white font-inter">Explain to you how all this mistaken idea of denouncing pleasure born
+                        and give you complete account the system.</p>
+                </div>
+            </div>
+
+            <div class="s-box text-center border rounded-lg py-12 px-10">
+                <div class="s-icon inline-flex items-center justify-center transition-all w-[120px] mx-auto h-[120px] bg-white rounded-full hover:bg-green hover:text-white">
+                    <span class="text-Yellow"><i class="fa-regular fa-laptop-code"></i></span>
+                </div>
+                <div class="s-content">
+                    <h3 class="text-xl text-white font-inter font-bold mt-[30px] mb-[10px]">WordPress Development</h3>
+                    <p class="text-base text-white font-inter">Explain to you how all this mistaken idea of denouncing pleasure born
+                        and give you complete account the system.</p>
+                </div>
+            </div>
+
+            <div class="s-box text-center border rounded-lg py-12 px-10">
+                <div class="s-icon inline-flex items-center justify-center transition-all w-[120px] mx-auto h-[120px] bg-white rounded-full hover:bg-green hover:text-white">
+                    <span class="text-Yellow"><i class="fa-regular fa-laptop-code"></i></span>
+                </div>
+                <div class="s-content">
+                    <h3 class="text-xl text-white font-inter font-bold mt-[30px] mb-[10px]"></h3>
+                    <p class="text-base text-white font-inter">Explain to you how all this mistaken idea of denouncing pleasure born
+                        and give you complete account the system.</p>
+                </div>
+            </div>
+
+            <div class="s-box text-center border rounded-lg py-12 px-10">
+                <div class="s-icon inline-flex items-center justify-center transition-all w-[120px] mx-auto h-[120px] bg-white rounded-full hover:bg-green hover:text-white">
+                    <span class="text-Yellow"><i class="fa-regular fa-laptop-code"></i></span>
+                </div>
+                <div class="s-content">
+                    <h3 class="text-xl text-white font-inter font-bold mt-[30px] mb-[10px]">PSD to WordPress</h3>
+                    <p class="text-base text-white font-inter">Explain to you how all this mistaken idea of denouncing pleasure born
+                        and give you complete account the system.</p>
+                </div>
+            </div>
+
         </div>
 
     </div>
@@ -174,12 +244,12 @@
             </div>
 
             <div class="co-logo">
-                <img class="w-[200px]" src="wp-content/uploads/2022/10/download.png" alt="">
+                <img class="" src="wp-content/uploads/2022/10/webzeto-e1665904154697.jpg" alt="">
             </div>
 
             <div class="role">
                 <h3 class="text-black text-2xl font-inter font-bold">WordPress Developer</h3>
-                <p class="text-green text-base font-inter font-medium">Designsvalley</p>
+                <p class="text-green text-base font-inter font-medium">webzeto</p>
             </div>
 
             <div class="years">
@@ -195,13 +265,77 @@
 
 <section class="py-130 bg-lightblack">
 
-    <div class="max-w-[968px] mx-auto">
+    <div class="max-w-1170 mx-auto">
 
         <div class="contact-head text-center relative z-10">
             <h2 class="text-white text-[48px] font-inter capitalize font-bold leading-[58px]">Pricing Plans</h2>
             <p class="text-white mt-[20px] mb-[40px] text-base font-inter leading-[29px] capitalize max-w-[550px] mx-auto">
                 Full stack WordPress Developer having half decade of industrial experience.
                 I love to develope website with Next Js and Tailwind CSS</p>
+        </div>
+
+        <div class="flex justify-between gap-8">
+
+            <div class="pricingTable bg-white">
+                <div class="pricingTable-header">
+                    <h3 class="title">Standard</h3>
+                    <div class="price-value">
+                        <span class="amount">$9.99</span>
+                        <span class="duration">per month</span>
+                    </div>
+                </div>
+                <ul class="pricing-content bg-white">
+                    <li>50GB Disk Space</li>
+                    <li>50 Email Accounts</li>
+                    <li>50GB Bandwidth</li>
+                    <li class="disable">Maintenance</li>
+                    <li class="disable">15 Subdomains</li>
+                </ul>
+                <div class="pricingTable-signup">
+                    <a href="#">Sign Up</a>
+                </div>
+            </div>
+
+            <div class="pricingTable blue bg-white">
+                <div class="pricingTable-header">
+                    <h3 class="title">Business</h3>
+                    <div class="price-value">
+                        <span class="amount">19.99</span>
+                        <span class="duration">per month</span>
+                    </div>
+                </div>
+                <ul class="pricing-content">
+                    <li>50GB Disk Space</li>
+                    <li>50 Email Accounts</li>
+                    <li>50GB Bandwidth</li>
+                    <li>Maintenance</li>
+                    <li class="disable">15 Subdomains</li>
+                </ul>
+                <div class="pricingTable-signup">
+                    <a href="#">Sign Up</a>
+                </div>
+            </div>
+
+            <div class="pricingTable blue bg-white">
+                <div class="pricingTable-header">
+                    <h3 class="title">Business</h3>
+                    <div class="price-value">
+                        <span class="amount">19.99</span>
+                        <span class="duration">per month</span>
+                    </div>
+                </div>
+                <ul class="pricing-content">
+                    <li>50GB Disk Space</li>
+                    <li>50 Email Accounts</li>
+                    <li>50GB Bandwidth</li>
+                    <li>Maintenance</li>
+                    <li class="disable">15 Subdomains</li>
+                </ul>
+                <div class="pricingTable-signup">
+                    <a href="#">Sign Up</a>
+                </div>
+            </div>
+
         </div>
 
     </div>

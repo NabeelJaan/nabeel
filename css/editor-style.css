@@ -256,6 +256,14 @@
   margin-bottom: 3rem
 }
 
+.mb-\[10px\] {
+  margin-bottom: 10px
+}
+
+.mt-\[30px\] {
+  margin-top: 30px
+}
+
 .block {
   display: block
 }
@@ -320,12 +328,8 @@
   height: 2.5rem
 }
 
-.h-\[100px\] {
-  height: 100px
-}
-
-.h-\[80x\] {
-  height: 80x
+.h-\[120px\] {
+  height: 120px
 }
 
 .min-h-screen {
@@ -384,6 +388,14 @@
   width: 158px
 }
 
+.w-\[100px\] {
+  width: 100px
+}
+
+.w-\[200px\] {
+  width: 200px
+}
+
 .w-90 {
   width: 90px
 }
@@ -392,16 +404,8 @@
   width: 182px
 }
 
-.w-\[100\] {
-  width: 100
-}
-
-.w-\[100px\] {
-  width: 100px
-}
-
-.w-\[200px\] {
-  width: 200px
+.w-\[120px\] {
+  width: 120px
 }
 
 .max-w-sm {
@@ -474,6 +478,10 @@
 
 .gap-\[30px\] {
   gap: 30px
+}
+
+.gap-8 {
+  gap: 2rem
 }
 
 .overflow-hidden {
@@ -581,6 +589,11 @@
   background-color: rgb(31 30 29 / var(--tw-bg-opacity))
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity))
+}
+
 .bg-\[\#222121\] {
   --tw-bg-opacity: 1;
   background-color: rgb(34 33 33 / var(--tw-bg-opacity))
@@ -603,11 +616,6 @@
 .bg-gray-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity))
-}
-
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity))
 }
 
 .bg-gradient-to-r {
@@ -769,6 +777,11 @@
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem
+}
+
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem
 }
 
 .pl-4 {
@@ -1072,6 +1085,12 @@
   transition-duration: 150ms
 }
 
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms
+}
+
 .alignfull {
   margin: 2rem calc(50% - 50vw) !important;
   max-width: 100vw !important;
@@ -1192,9 +1211,19 @@ body {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity))
 }
 
+.hover\:bg-green:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(89 195 120 / var(--tw-bg-opacity))
+}
+
 .hover\:text-green:hover {
   --tw-text-opacity: 1;
   color: rgb(89 195 120 / var(--tw-text-opacity))
+}
+
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity))
 }
 
 @media (min-width: 782px) {
@@ -1211,12 +1240,28 @@ body {
     width: 50%
   }
 
+  .md\:grid-flow-row {
+    grid-auto-flow: row
+  }
+
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr))
+  }
+
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr))
+  }
+
   .md\:items-center {
     align-items: center
   }
 
   .md\:justify-between {
     justify-content: space-between
+  }
+
+  .md\:gap-5 {
+    gap: 1.25rem
   }
 
   .md\:text-3xl {
