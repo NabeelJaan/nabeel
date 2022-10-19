@@ -276,12 +276,12 @@
 
         <div class="flex justify-between gap-8">
 
-            <div class="pricingTable bg-white">
+            <div class="pricingTable bg-white p-9 rounded-xl shadow text-center">
                 <div class="pricingTable-header">
                     <h3 class="title">Standard</h3>
                     <div class="price-value">
-                        <span class="amount">$9.99</span>
-                        <span class="duration">per month</span>
+                        <span class="amount text-[50px] text-green font-inter font-semibold leading-[53px]">$9.99</span>
+                        <span class="duration text-sm capitalize block text-green font-inter">per month</span>
                     </div>
                 </div>
                 <ul class="pricing-content bg-white">
@@ -296,11 +296,11 @@
                 </div>
             </div>
 
-            <div class="pricingTable blue bg-white">
+            <div class="pricingTable blue bg-white p-9 rounded-xl shadow text-center">
                 <div class="pricingTable-header">
                     <h3 class="title">Business</h3>
                     <div class="price-value">
-                        <span class="amount">19.99</span>
+                        <span class="amount text-[50px] text-green font-inter font-semibold leading-[53px]">19.99</span>
                         <span class="duration">per month</span>
                     </div>
                 </div>
@@ -316,11 +316,11 @@
                 </div>
             </div>
 
-            <div class="pricingTable blue bg-white">
+            <div class="pricingTable blue bg-white p-9 rounded-xl shadow text-center">
                 <div class="pricingTable-header">
                     <h3 class="title">Business</h3>
                     <div class="price-value">
-                        <span class="amount">19.99</span>
+                        <span class="amount text-[50px] text-green font-inter font-semibold leading-[53px]">19.99</span>
                         <span class="duration">per month</span>
                     </div>
                 </div>

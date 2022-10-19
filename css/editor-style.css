@@ -216,6 +216,14 @@
   margin-top: 3px
 }
 
+.mt-\[30px\] {
+  margin-top: 30px
+}
+
+.mb-\[10px\] {
+  margin-bottom: 10px
+}
+
 .mt-5 {
   margin-top: 1.25rem
 }
@@ -254,14 +262,6 @@
 
 .mb-12 {
   margin-bottom: 3rem
-}
-
-.mb-\[10px\] {
-  margin-bottom: 10px
-}
-
-.mt-\[30px\] {
-  margin-top: 30px
 }
 
 .block {
@@ -320,16 +320,16 @@
   height: 158px
 }
 
+.h-\[120px\] {
+  height: 120px
+}
+
 .h-90 {
   height: 90px
 }
 
 .h-10 {
   height: 2.5rem
-}
-
-.h-\[120px\] {
-  height: 120px
 }
 
 .min-h-screen {
@@ -388,12 +388,12 @@
   width: 158px
 }
 
-.w-\[100px\] {
-  width: 100px
+.w-\[120px\] {
+  width: 120px
 }
 
-.w-\[200px\] {
-  width: 200px
+.w-\[100px\] {
+  width: 100px
 }
 
 .w-90 {
@@ -402,10 +402,6 @@
 
 .w-\[182px\] {
   width: 182px
-}
-
-.w-\[120px\] {
-  width: 120px
 }
 
 .max-w-sm {
@@ -426,10 +422,6 @@
 
 .max-w-\[350px\] {
   max-width: 350px
-}
-
-.max-w-\[968px\] {
-  max-width: 968px
 }
 
 .max-w-\[550px\] {
@@ -695,6 +687,10 @@
   padding: 1rem
 }
 
+.p-9 {
+  padding: 2.25rem
+}
+
 .p-2 {
   padding: 0.5rem
 }
@@ -749,6 +745,16 @@
   padding-bottom: 130px
 }
 
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem
+}
+
 .px-\[70px\] {
   padding-left: 70px;
   padding-right: 70px
@@ -769,19 +775,9 @@
   padding-bottom: 33px
 }
 
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem
-}
-
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem
-}
-
-.py-12 {
-  padding-top: 3rem;
-  padding-bottom: 3rem
 }
 
 .pl-4 {
@@ -904,6 +900,10 @@
   font-size: 28px
 }
 
+.text-\[50px\] {
+  font-size: 50px
+}
+
 .font-light {
   font-weight: 300
 }
@@ -982,6 +982,10 @@
 
 .leading-tight {
   line-height: 1.25
+}
+
+.leading-\[53px\] {
+  line-height: 53px
 }
 
 .tracking-wide {
@@ -1075,6 +1079,12 @@
 .antialiased {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale
+}
+
+.shadow {
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
 }
 
 .transition {
@@ -1242,10 +1252,6 @@ body {
 
   .md\:grid-flow-row {
     grid-auto-flow: row
-  }
-
-  .md\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr))
   }
 
   .md\:grid-cols-3 {
