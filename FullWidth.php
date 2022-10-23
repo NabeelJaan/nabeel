@@ -263,7 +263,7 @@
 
 <!-- Pricing Plans -->
 
-<section class="py-130 bg-lightblack">
+<!-- <section class="py-130 bg-lightblack">
 
     <div class="max-w-1170 mx-auto">
 
@@ -287,12 +287,12 @@
                 <ul class="pricing-content bg-white">
                     <li>50GB Disk Space</li>
                     <li>50 Email Accounts</li>
-                    <li>50GB Bandwidth</li>
-                    <li class="disable">Maintenance</li>
-                    <li class="disable">15 Subdomains</li>
                 </ul>
                 <div class="pricingTable-signup">
-                    <a href="#">Sign Up</a>
+                   <li>50GB Bandwidth</li>
+                    <li class="disable">Maintenance</li>
+                    <li class="disable">15 Subdomains</li>
+                     <a href="#">Sign Up</a>
                 </div>
             </div>
 
@@ -340,7 +340,7 @@
 
     </div>
 
-</section>
+</section> -->
 
 <!-- Lets Talk -->
 

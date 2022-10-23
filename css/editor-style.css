@@ -896,12 +896,12 @@
   font-size: 35px
 }
 
-.text-\[28px\] {
-  font-size: 28px
-}
-
 .text-\[50px\] {
   font-size: 50px
+}
+
+.text-\[28px\] {
+  font-size: 28px
 }
 
 .font-light {
@@ -972,6 +972,10 @@
   line-height: 42px
 }
 
+.leading-\[53px\] {
+  line-height: 53px
+}
+
 .leading-\[34px\] {
   line-height: 34px
 }
@@ -982,10 +986,6 @@
 
 .leading-tight {
   line-height: 1.25
-}
-
-.leading-\[53px\] {
-  line-height: 53px
 }
 
 .tracking-wide {
