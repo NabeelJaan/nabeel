@@ -36,9 +36,23 @@ function tailpress_setup() {
 add_action( 'after_setup_theme', 'tailpress_setup' );
 
 
-/**
- * Enqueue theme assets.
- */
+
+/*
+==========================================
+	GB Blocks Function file
+==========================================
+*/
+
+require get_template_directory() . '/inc/gb-blocks.php';
+
+
+
+/*
+==========================================
+	Enqueue theme assets.
+==========================================
+*/
+
 function tailpress_enqueue_scripts() {
 	$theme = wp_get_theme();
 
