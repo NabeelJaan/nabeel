@@ -26,7 +26,20 @@ function nabeel_acf_block() {
 
         );
 
-        // Skills
+        // About Me
+
+        acf_register_block_type(
+            array(
+                'name'            =>__( 'About Me' ),
+                'title'           =>  __( 'About Me' ),
+                'description'     =>  '',
+                'render_template' =>  'inc/blocks/about-me.php',
+                'category'        =>  'Nabeel',
+                'icon'            =>  'block-default',
+                'keywords'        =>  array( 'nabeel', 'About Me' )
+            )
+
+        );
         
     }
 
