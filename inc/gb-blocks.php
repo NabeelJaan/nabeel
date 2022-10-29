@@ -85,6 +85,22 @@ function nabeel_acf_block() {
             )
 
         );
+
+
+        // blog
+
+        acf_register_block_type(
+            array(
+                'name'            =>__( 'Blog' ),
+                'title'           =>  __( 'Blog' ),
+                'description'     =>  '',
+                'render_template' =>  'inc/blocks/blog.php',
+                'category'        =>  'Nabeel',
+                'icon'            =>  'block-default',
+                'keywords'        =>  array( 'nabeel', 'blog' )
+            )
+
+        );
         
     }
 
