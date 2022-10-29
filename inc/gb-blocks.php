@@ -55,6 +55,21 @@ function nabeel_acf_block() {
             )
 
         );
+
+        // Experience
+
+        acf_register_block_type(
+            array(
+                'name'            =>__( 'Experience' ),
+                'title'           =>  __( 'Experience' ),
+                'description'     =>  '',
+                'render_template' =>  'inc/blocks/experience.php',
+                'category'        =>  'Nabeel',
+                'icon'            =>  'block-default',
+                'keywords'        =>  array( 'nabeel', 'Experience' )
+            )
+
+        );
         
     }
 
