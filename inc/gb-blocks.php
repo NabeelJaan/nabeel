@@ -70,6 +70,21 @@ function nabeel_acf_block() {
             )
 
         );
+
+        // contact
+
+        acf_register_block_type(
+            array(
+                'name'            =>__( 'contact' ),
+                'title'           =>  __( 'contact' ),
+                'description'     =>  '',
+                'render_template' =>  'inc/blocks/contact.php',
+                'category'        =>  'Nabeel',
+                'icon'            =>  'block-default',
+                'keywords'        =>  array( 'nabeel', 'contact' )
+            )
+
+        );
         
     }
 
