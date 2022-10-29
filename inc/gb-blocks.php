@@ -40,6 +40,21 @@ function nabeel_acf_block() {
             )
 
         );
+
+        // My Services
+
+        acf_register_block_type(
+            array(
+                'name'            =>__( 'Services' ),
+                'title'           =>  __( 'Services' ),
+                'description'     =>  '',
+                'render_template' =>  'inc/blocks/services.php',
+                'category'        =>  'Nabeel',
+                'icon'            =>  'block-default',
+                'keywords'        =>  array( 'nabeel', 'Services' )
+            )
+
+        );
         
     }
 
