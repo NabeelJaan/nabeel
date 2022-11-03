@@ -8,12 +8,20 @@
         <div class="inner-wrapper flex justify-between items-center">
             <div class="content-wrapper w-3/5 relative z-10">
                 <p class="text-6xl font-bold text-Yellow font-inter">Hello,</p>
-                <h1 class="text-white text-90 font-bold font-inter">I'm Nabeel.</h1>
-                <h3 class="text-32 font-inter text-green font-semibold">WordPress Developer</h3>
-                <p class="text-xl font-medium font-inter text-white my-8 capitalize">Full stack WordPress Developer having half decade of industrial experience. I love to develope website with Next Js and Tailwind CSS</p>
-                <div class="hero-btn">
-                    <a href="#" class="text-white font-inter text-base font-semibold leading-6 tracking-wide capitalize bg-green h-14 w-40 rounded-full inline-flex items-center justify-center hover:bg-white hover:text-green">hire me</a>
-                </div>
+                <h1 class="text-white text-90 font-bold font-inter"><?php the_field( 'hero_heading' ); ?></h1>
+                <h3 class="text-32 font-inter text-green font-semibold"><?php the_field( 'hero_title' ); ?></h3>
+                <p class="text-xl font-medium font-inter text-white my-8 capitalize"><?php the_field( 'hero_sub_heading' ); ?></p>
+
+                <?php $hire_me_button = get_field('hire_me_button'); ?>
+
+                <?php if( $hire_me_button ) : ?>
+                    <div class="hero-btn">
+                        <a href="#" class="text-white font-inter text-base font-semibold leading-6 tracking-wide capitalize bg-green h-14 w-40 rounded-full inline-flex items-center justify-center hover:bg-white hover:text-green">
+                            <?php echo esc_url( $hire_me_button['title'] ); ?>
+                        </a>
+                    </div>
+                <?php endif; ?>
+
             </div>
 
             <div class="hero-img relative bg-Blue rounded-full w-500 h-500 mx-auto z-10">
