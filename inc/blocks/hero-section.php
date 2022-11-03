@@ -7,25 +7,35 @@
     <div class="max-w-1170 mx-auto">
         <div class="inner-wrapper flex justify-between items-center">
             <div class="content-wrapper w-3/5 relative z-10">
-                <p class="text-6xl font-bold text-Yellow font-inter">Hello,</p>
+                <p class="text-6xl font-bold text-Yellow font-inter"><?php the_field( 'hero_sub_heading' ); ?></p>
                 <h1 class="text-white text-90 font-bold font-inter"><?php the_field( 'hero_heading' ); ?></h1>
                 <h3 class="text-32 font-inter text-green font-semibold"><?php the_field( 'hero_title' ); ?></h3>
-                <p class="text-xl font-medium font-inter text-white my-8 capitalize"><?php the_field( 'hero_sub_heading' ); ?></p>
+                <p class="text-xl font-medium font-inter text-white my-8 capitalize"><?php the_field( 'hero_description' ); ?></p>
 
                 <?php $hire_me_button = get_field('hire_me_button'); ?>
 
                 <?php if( $hire_me_button ) : ?>
+
                     <div class="hero-btn">
-                        <a href="#" class="text-white font-inter text-base font-semibold leading-6 tracking-wide capitalize bg-green h-14 w-40 rounded-full inline-flex items-center justify-center hover:bg-white hover:text-green">
-                            <?php echo esc_url( $hire_me_button['title'] ); ?>
+                        <a href="<?php echo esc_url( $hire_me_button['url'] ); ?>" target="<?php echo esc_attr( $hire_me_button[target] ); ?>" class="text-white font-inter text-base font-semibold leading-6 tracking-wide capitalize bg-green h-14 w-40 rounded-full inline-flex items-center justify-center hover:bg-white hover:text-green">
+                            <?php echo esc_html( $hire_me_button['title'] ); ?>
                         </a>
                     </div>
+
                 <?php endif; ?>
 
             </div>
 
             <div class="hero-img relative bg-Blue rounded-full w-500 h-500 mx-auto z-10">
-                <img class="absolute bottom-0" src="wp-content/uploads/2022/10/nabeel-e1665336978475.png" alt="Muhammad Nabeel picture">
+
+                <?php $hero_image = get_field( 'hero_image' ); ?>
+
+                <?php if( $hero_image ) : ?>
+                    
+                    <img class="absolute bottom-0" src="<?php echo esc_url( $hero_image['rul'] ); ?>" alt="<?php echo esc_attr( $hero_image['alt'] ) ?>">
+                
+                <?php endif; ?>
+
                 <div class="icon1 bg-white w-110 h-110 rounded-3xl p-5 absolute top-28 -left-[34px]">
                     <img src="wp-content/uploads/2022/10/svgexport-1.svg" alt="photoshop">
                 </div>
