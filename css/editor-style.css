@@ -264,6 +264,30 @@
   margin-bottom: 3rem
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem
+}
+
+.mt-2\.5 {
+  margin-top: 0.625rem
+}
+
+.mt-2 {
+  margin-top: 0.5rem
+}
+
+.mt-\[28px\] {
+  margin-top: 28px
+}
+
+.mt-10 {
+  margin-top: 2.5rem
+}
+
 .block {
   display: block
 }
@@ -330,6 +354,18 @@
 
 .h-10 {
   height: 2.5rem
+}
+
+.h-\[40px\] {
+  height: 40px
+}
+
+.h-\[240px\] {
+  height: 240px
+}
+
+.h-\[38px\] {
+  height: 38px
 }
 
 .min-h-screen {
@@ -404,6 +440,14 @@
   width: 182px
 }
 
+.w-\[70px\] {
+  width: 70px
+}
+
+.w-\[130px\] {
+  width: 130px
+}
+
 .max-w-sm {
   max-width: 24rem
 }
@@ -456,6 +500,10 @@
   flex-direction: column
 }
 
+.flex-wrap {
+  flex-wrap: wrap
+}
+
 .items-center {
   align-items: center
 }
@@ -474,6 +522,14 @@
 
 .gap-8 {
   gap: 2rem
+}
+
+.gap-4 {
+  gap: 1rem
+}
+
+.gap-7 {
+  gap: 1.75rem
 }
 
 .overflow-hidden {
@@ -498,6 +554,10 @@
 
 .rounded-xl {
   border-radius: 0.75rem
+}
+
+.rounded-\[4px\] {
+  border-radius: 4px
 }
 
 .border {
@@ -529,6 +589,11 @@
 .border-lightGrey {
   --tw-border-opacity: 1;
   border-color: rgb(70 70 70 / var(--tw-border-opacity))
+}
+
+.border-\[\#2E3748\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(46 55 72 / var(--tw-border-opacity))
 }
 
 .bg-primary {
@@ -608,6 +673,15 @@
 .bg-gray-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity))
+}
+
+.bg-\[\#162033\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 32 51 / var(--tw-bg-opacity))
+}
+
+.bg-opacity-20 {
+  --tw-bg-opacity: 0.2
 }
 
 .bg-gradient-to-r {
@@ -780,6 +854,11 @@
   padding-bottom: 1.5rem
 }
 
+.py-32 {
+  padding-top: 8rem;
+  padding-bottom: 8rem
+}
+
 .pl-4 {
   padding-left: 1rem
 }
@@ -814,6 +893,10 @@
 
 .pb-6 {
   padding-bottom: 1.5rem
+}
+
+.text-left {
+  text-align: left
 }
 
 .text-center {
@@ -902,6 +985,10 @@
 
 .text-\[28px\] {
   font-size: 28px
+}
+
+.text-\[46px\] {
+  font-size: 46px
 }
 
 .font-light {
@@ -1072,8 +1159,7 @@
 }
 
 .underline {
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline
+  text-decoration-line: underline
 }
 
 .antialiased {
@@ -1088,9 +1174,9 @@
 }
 
 .transition {
-  transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms
 }
@@ -1196,6 +1282,11 @@ body {
   border-color: rgb(138 58 185 / var(--tw-border-opacity))
 }
 
+.hover\:bg-white:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity))
+}
+
 .hover\:bg-\[\#1298F6\]:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(18 152 246 / var(--tw-bg-opacity))
@@ -1216,11 +1307,6 @@ body {
   background-color: rgb(138 58 185 / var(--tw-bg-opacity))
 }
 
-.hover\:bg-white:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity))
-}
-
 .hover\:bg-green:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(89 195 120 / var(--tw-bg-opacity))
@@ -1234,6 +1320,16 @@ body {
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity))
+}
+
+@media (min-width: 600px) {
+  .sm\:text-left {
+    text-align: left
+  }
+
+  .sm\:text-center {
+    text-align: center
+  }
 }
 
 @media (min-width: 782px) {
@@ -1268,6 +1364,14 @@ body {
 
   .md\:gap-5 {
     gap: 1.25rem
+  }
+
+  .md\:text-left {
+    text-align: left
+  }
+
+  .md\:text-center {
+    text-align: center
   }
 
   .md\:text-3xl {
@@ -1319,8 +1423,28 @@ body {
     padding: 0px
   }
 
+  .lg\:text-left {
+    text-align: left
+  }
+
   .lg\:text-5xl {
     font-size: 3rem;
     line-height: 1
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:text-left {
+    text-align: left
+  }
+}
+
+@media (min-width: 1440px) {
+  .\32xl\:flex {
+    display: flex
+  }
+
+  .\32xl\:text-left {
+    text-align: left
   }
 }

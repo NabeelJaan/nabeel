@@ -17,7 +17,7 @@
         
         <div class="s-box text-center border rounded-lg py-12 px-10">
             <div class="s-icon inline-flex items-center justify-center transition-all w-[120px] mx-auto h-[120px] bg-white rounded-full hover:bg-green hover:text-white">
-                <span class="text-Yellow"><i class="fa-regular fa-laptop-code"></i></span>
+                <span class="text-Yellow"><i class="fas fa-laptop-code"></i></span>
             </div>
             <div class="s-content">
                 <h3 class="text-xl text-white font-inter font-bold mt-[30px] mb-[10px]">Web Development</h3>
@@ -28,7 +28,7 @@
 
         <div class="s-box text-center border rounded-lg py-12 px-10">
             <div class="s-icon inline-flex items-center justify-center transition-all w-[120px] mx-auto h-[120px] bg-white rounded-full hover:bg-green hover:text-white">
-                <span class="text-Yellow"><i class="fa-regular fa-laptop-code"></i></span>
+                <span class="text-Yellow"><i class="fas fa-laptop-code"></i></span>
             </div>
             <div class="s-content">
                 <h3 class="text-xl text-white font-inter font-bold mt-[30px] mb-[10px]">Themes Development</h3>
@@ -39,7 +39,7 @@
 
         <div class="s-box text-center border rounded-lg py-12 px-10">
             <div class="s-icon inline-flex items-center justify-center transition-all w-[120px] mx-auto h-[120px] bg-white rounded-full hover:bg-green hover:text-white">
-                <span class="text-Yellow"><i class="fa-regular fa-laptop-code"></i></span>
+                <span class="text-Yellow"><i class="fas fa-laptop-code"></i></span>
             </div>
             <div class="s-content">
                 <h3 class="text-xl text-white font-inter font-bold mt-[30px] mb-[10px]">WordPress Development</h3>
@@ -50,7 +50,7 @@
 
         <div class="s-box text-center border rounded-lg py-12 px-10">
             <div class="s-icon inline-flex items-center justify-center transition-all w-[120px] mx-auto h-[120px] bg-white rounded-full hover:bg-green hover:text-white">
-                <span class="text-Yellow"><i class="fa-regular fa-laptop-code"></i></span>
+                <span class="text-Yellow"><i class="fas fa-laptop-code"></i></span>
             </div>
             <div class="s-content">
                 <h3 class="text-xl text-white font-inter font-bold mt-[30px] mb-[10px]">WordPress Development</h3>
@@ -61,7 +61,7 @@
 
         <div class="s-box text-center border rounded-lg py-12 px-10">
             <div class="s-icon inline-flex items-center justify-center transition-all w-[120px] mx-auto h-[120px] bg-white rounded-full hover:bg-green hover:text-white">
-                <span class="text-Yellow"><i class="fa-regular fa-laptop-code"></i></span>
+                <span class="text-Yellow"><i class="fas fa-laptop-code"></i></span>
             </div>
             <div class="s-content">
                 <h3 class="text-xl text-white font-inter font-bold mt-[30px] mb-[10px]"></h3>
@@ -72,7 +72,7 @@
 
         <div class="s-box text-center border rounded-lg py-12 px-10">
             <div class="s-icon inline-flex items-center justify-center transition-all w-[120px] mx-auto h-[120px] bg-white rounded-full hover:bg-green hover:text-white">
-                <span class="text-Yellow"><i class="fa-regular fa-laptop-code"></i></span>
+                <span class="text-Yellow"><i class="fas fa-laptop-code"></i></span>
             </div>
             <div class="s-content">
                 <h3 class="text-xl text-white font-inter font-bold mt-[30px] mb-[10px]">PSD to WordPress</h3>

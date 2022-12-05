@@ -1,13 +1,13 @@
 <footer class="site-footer relative bg-lightblack">
 
-<div class="f-cta bg-[#FF4155] py-[90px] max-w-1170 -mt-[284px] relative z-10">
+<div class="f-cta flex bg-[#FF4155] py-[90px] max-w-1170 -mt-[284px] relative z-10">
 
 	<div class="cta-content max-w-4xl mx-auto flex items-center justify-between ">
 		<div>
 			<h4 class="text-white text-[45px] font-inter font-bold leading-[60px] max-w-[460px]">Send me a message and make something together.</h4>
 		</div>
 		<div class="cta-btn">
-			<a href="#" class="text-white text-base leading-6 font-semibold font-inter capitalize bg-lightblack w-186 h-54 rounded-lg inline-flex items-center justify-center">Contact us</a>
+			<a href="#" class="text-white text-base leading-6 font-semibold font-inter capitalize bg-lightblack w-186 h-54 rounded-lg inline-flex items-center justify-center  hover:bg-white hover:text-green">Contact us</a>
 		</div>
 	</div>
 
@@ -41,20 +41,20 @@
 			<div class="f-nav w-2/6">
 				<h4 class="text-2xl font-inter font-semibold text-white leading-[29px] mb-11">Navigation</h4>
 				<ul>
-					<li><a href="#" class="text-white relative text-base font-inter mb-6 inline-block pl-4">About us</a></li>				
-					<li><a href="#" class="text-white relative text-base font-inter mb-6 inline-block pl-4">Contact us</a></li>				
-					<li><a href="#" class="text-white relative text-base font-inter mb-6 inline-block pl-4">Projects</a></li>				
-					<li><a href="#" class="text-white relative text-base font-inter mb-6 inline-block pl-4">Latest Posts</a></li>				
+					<li><a href="#" class="text-white relative text-base font-inter mb-6 inline-block pl-4 hover:text-green">About us</a></li>				
+					<li><a href="#" class="text-white relative text-base font-inter mb-6 inline-block pl-4 hover:text-green">Contact us</a></li>				
+					<li><a href="#" class="text-white relative text-base font-inter mb-6 inline-block pl-4 hover:text-green">Projects</a></li>				
+					<li><a href="#" class="text-white relative text-base font-inter mb-6 inline-block pl-4 hover:text-green">Latest Posts</a></li>				
 				</ul>
 			</div>
 			
 			<div class="f-services w-2/6">
 				<h4 class="text-2xl font-inter font-semibold text-white leading-[29px] mb-11">Services</h4>
 				<ul>
-					<li><a href="#" class="text-white relative text-base font-inter mb-6 inline-block pl-4">WordPress</a></li>				
-					<li><a href="#" class="text-white relative text-base font-inter mb-6 inline-block pl-4">Custom Themes</a></li>				
-					<li><a href="#" class="text-white relative text-base font-inter mb-6 inline-block pl-4">Frontend</a></li>				
-					<li><a href="#" class="text-white relative text-base font-inter mb-6 inline-block pl-4">Web Design</a></li>				
+					<li><a href="#" class="text-white relative text-base font-inter mb-6 inline-block pl-4 hover:text-green">WordPress</a></li>				
+					<li><a href="#" class="text-white relative text-base font-inter mb-6 inline-block pl-4 hover:text-green">Custom Themes</a></li>				
+					<li><a href="#" class="text-white relative text-base font-inter mb-6 inline-block pl-4 hover:text-green">Frontend</a></li>				
+					<li><a href="#" class="text-white relative text-base font-inter mb-6 inline-block pl-4 hover:text-green">Web Design</a></li>				
 				</ul>
 			</div>
 

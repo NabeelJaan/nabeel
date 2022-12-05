@@ -1,15 +1,15 @@
 
 
-
+ 
 
 
 <section class="hero-sec py-36 relative bg-gradient-to-r from-[#33191C] via-[#493D12] to-[#203E46] z-0 -mt-88 overflow-hidden">
     <div class="max-w-1170 mx-auto">
-        <div class="inner-wrapper flex justify-between items-center">
+        <div class="inner-wrapper md:flex justify-between items-center">
             <div class="content-wrapper w-3/5 relative z-10">
-                <p class="text-6xl font-bold text-Yellow font-inter"><?php the_field( 'hero_sub_heading' ); ?></p>
-                <h1 class="text-white text-90 font-bold font-inter"><?php the_field( 'hero_heading' ); ?></h1>
-                <h3 class="text-32 font-inter text-green font-semibold"><?php the_field( 'hero_title' ); ?></h3>
+                <p class="text-6xl font-bold text-Yellow font-inter md:text-center"><?php the_field( 'hero_sub_heading' ); ?></p>
+                <h1 class="text-white text-90 font-bold font-inter md:text-center"><?php the_field( 'hero_heading' ); ?></h1>
+                <h3 class="text-32 font-inter text-green font-semibold md:text-center"><?php the_field( 'hero_title' ); ?></h3>
                 <p class="text-xl font-medium font-inter text-white my-8 capitalize"><?php the_field( 'hero_description' ); ?></p>
 
                 <?php $hire_me_button = get_field('hire_me_button'); ?>
@@ -32,7 +32,7 @@
 
                 <?php if( $hero_image ) : ?>
                     
-                    <img class="absolute bottom-0" src="<?php echo esc_url( $hero_image['rul'] ); ?>" alt="<?php echo esc_attr( $hero_image['alt'] ) ?>">
+                    <img class="absolute bottom-0" src="<?php echo esc_url( $hero_image['url'] ); ?>" alt="<?php echo esc_attr( $hero_image['alt'] ) ?>">
                 
                 <?php endif; ?>
 

@@ -51,14 +51,14 @@
 						'container_class' => 'hidden bg-gray-100 mt-4 p-4 lg:mt-0 lg:p-0 lg:bg-transparent lg:block',
 						'menu_class'      => 'lg:flex lg:-mx-4',
 						'theme_location'  => 'primary',
-						'li_class'        => 'text-white font-inter capitalize text-base font-bold lg:mx-4',
+						'li_class'        => 'text-white font-inter capitalize text-base font-bold lg:mx-4 hover:text-green',
 						'fallback_cb'     => false,
 					)
 				);
 				?>
 
 				<div>
-					<a class="text-white font-inter font-medium tracking-wider uppercase bg-green rounded-full inline-flex items-center justify-center h-10 w-[182px]" href="#">download cv</a>
+					<a class="text-white font-inter font-medium tracking-wider uppercase bg-green rounded-full inline-flex items-center justify-center h-10 w-[182px] hover:text-green hover:bg-white" href="#">download cv</a>
 				</div>
 			</div>
 		</div>

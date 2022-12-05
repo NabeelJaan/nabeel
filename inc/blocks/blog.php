@@ -24,7 +24,7 @@
                 <div class="post-content px-3 pb-6">
                     <span class="inline-block text-sm font-inter text-white bg-[#3C3C3C] p-2 mt-6">12 Oct, 2022</span>
                     <h3 class="text-2xl leading-9 font-inter font-semibold text-white mt-6 mb-7">The Internet tend to repeat predefined chunks.</h3>
-                    <a href="#" class="text-lg leading-6 font-inter text-white capitalize">read more</a>
+                    <a href="#" class="text-lg leading-6 font-inter text-white capitalize hover:text-green">read more</a>
                 </div>
 
             </div>
@@ -40,7 +40,7 @@
                 <div class="post-content px-3 pb-6">
                     <span class="inline-block text-sm font-inter text-white bg-[#3C3C3C] p-2 mt-6">12 Oct, 2022</span>
                     <h3 class="text-2xl leading-9 font-inter font-semibold text-white mt-6 mb-7">The Internet tend to repeat predefined chunks.</h3>
-                    <a href="#" class="text-lg leading-6 font-inter text-white capitalize">read more</a>
+                    <a href="#" class="text-lg leading-6 font-inter text-white capitalize hover:text-green">read more</a>
                 </div>
 
             </div>
@@ -56,7 +56,7 @@
                 <div class="post-content px-3 pb-6">
                     <span class="inline-block text-sm font-inter text-white bg-[#3C3C3C] p-2 mt-6">12 Oct, 2022</span>
                     <h3 class="text-2xl leading-9 font-inter font-semibold text-white mt-6 mb-7">The Internet tend to repeat predefined chunks.</h3>
-                    <a href="#" class="text-lg leading-6 font-inter text-white capitalize">read more</a>
+                    <a href="#" class="text-lg leading-6 font-inter text-white capitalize hover:text-green">read more</a>
                 </div>
 
             </div>
@@ -72,7 +72,7 @@
                 <div class="post-content px-3 pb-6">
                     <span class="inline-block text-sm font-inter text-white bg-[#3C3C3C] p-2 mt-6">12 Oct, 2022</span>
                     <h3 class="text-2xl leading-9 font-inter font-semibold text-white mt-6 mb-7">The Internet tend to repeat predefined chunks.</h3>
-                    <a href="#" class="text-lg leading-6 font-inter text-white capitalize">read more</a>
+                    <a href="#" class="text-lg leading-6 font-inter text-white capitalize hover:text-green">read more</a>
                 </div>
 
             </div>
@@ -88,7 +88,7 @@
                 <div class="post-content px-3 pb-6">
                     <span class="inline-block text-sm font-inter text-white bg-[#3C3C3C] p-2 mt-6">12 Oct, 2022</span>
                     <h3 class="text-2xl leading-9 font-inter font-semibold text-white mt-6 mb-7">The Internet tend to repeat predefined chunks.</h3>
-                    <a href="#" class="text-lg leading-6 font-inter text-white capitalize">read more</a>
+                    <a href="#" class="text-lg leading-6 font-inter text-white capitalize hover:text-green">read more</a>
                 </div>
 
             </div>
